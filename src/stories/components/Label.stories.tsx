@@ -1,4 +1,4 @@
-import Label from "../../components/Label";
+import { Label } from "../../components/Label";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
 import { Props } from "../../components/Label";

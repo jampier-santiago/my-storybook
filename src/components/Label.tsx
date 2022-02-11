@@ -27,7 +27,7 @@ export interface Props {
   bgColor?: string;
 }
 
-const Label = ({
+export const Label = ({
   label = "No label",
   size = "normal",
   color = "primary",
@@ -44,5 +44,3 @@ const Label = ({
     </span>
   );
 };
-
-export default Label;
